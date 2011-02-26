@@ -1,0 +1,29 @@
+validateWAVE
+Version 1.0
+Created 2011-02-25
+Modified 2011-02-25
+Written by Theron Trowbridge
+
+
+Description
+
+Perl script to analyze a WAVE file and validate that it is a proper WAVE file.
+
+Outputs information about the file, as well as any warnings or errors.
+
+
+Usage
+
+$ perl validateWAVE.pl <input.wav>
+
+Works with glob operations (i.e., validateWAVE.pl *.wav) to operate on multiple WAVE files.
+
+
+Output
+
+Outputs to stdio.  Can be piped to a text file or command line utility like grep.
+
+
+Known Issues
+
+None, though I have not tested with many faulty WAVE files, so there may be some issues with oddball cases.
